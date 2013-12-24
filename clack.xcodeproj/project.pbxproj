@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A1B45518612AD6007247F0 /* ImageAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1B45418612AD6007247F0 /* ImageAttachment.m */; };
+		20A1B4571861317F007247F0 /* blue-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A1B4561861317F007247F0 /* blue-bg@2x.png */; };
+		20A1B45918613203007247F0 /* overlay-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A1B45818613203007247F0 /* overlay-bg@2x.png */; };
+		20A1B45B186140AE007247F0 /* insert-test.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A1B45A186140AE007247F0 /* insert-test.png */; };
+		20A1B45D18614756007247F0 /* insert-test-wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A1B45C18614756007247F0 /* insert-test-wide.png */; };
+		20A1B46018622E2F007247F0 /* ClackTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1B45F18622E2F007247F0 /* ClackTextView.m */; };
+		20A1B46518623A96007247F0 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1B46418623A96007247F0 /* DAKeyboardControl.m */; };
 		20D02CFC185FC0BB00793CDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D02CFB185FC0BB00793CDC /* Foundation.framework */; };
 		20D02CFE185FC0BB00793CDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D02CFD185FC0BB00793CDC /* CoreGraphics.framework */; };
 		20D02D00185FC0BB00793CDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D02CFF185FC0BB00793CDC /* UIKit.framework */; };
@@ -26,6 +33,12 @@
 		20D02D29185FC0BB00793CDC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D02D01185FC0BB00793CDC /* CoreData.framework */; };
 		20D02D31185FC0BB00793CDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20D02D2F185FC0BB00793CDC /* InfoPlist.strings */; };
 		20D02D33185FC0BB00793CDC /* clackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D02D32185FC0BB00793CDC /* clackTests.m */; };
+		20D02D4618604B6200793CDC /* icon-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D02D4518604B6200793CDC /* icon-camera@2x.png */; };
+		20D02D491860500B00793CDC /* FadeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D02D481860500B00793CDC /* FadeSegue.m */; };
+		20D02D4C186052A600793CDC /* SyntaxHighlightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D02D4B186052A600793CDC /* SyntaxHighlightTextStorage.m */; };
+		20D02D4E1860F96900793CDC /* test-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D02D4D1860F96900793CDC /* test-background@2x.png */; };
+		20D02D501860F9A900793CDC /* blank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D02D4F1860F9A900793CDC /* blank@2x.png */; };
+		20D02D5418610C6C00793CDC /* btn-camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20D02D5318610C6C00793CDC /* btn-camera@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20A1B45318612AD6007247F0 /* ImageAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAttachment.h; sourceTree = "<group>"; };
+		20A1B45418612AD6007247F0 /* ImageAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAttachment.m; sourceTree = "<group>"; };
+		20A1B4561861317F007247F0 /* blue-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-bg@2x.png"; sourceTree = "<group>"; };
+		20A1B45818613203007247F0 /* overlay-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay-bg@2x.png"; sourceTree = "<group>"; };
+		20A1B45A186140AE007247F0 /* insert-test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "insert-test.png"; sourceTree = "<group>"; };
+		20A1B45C18614756007247F0 /* insert-test-wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "insert-test-wide.png"; sourceTree = "<group>"; };
+		20A1B45E18622E2F007247F0 /* ClackTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClackTextView.h; sourceTree = "<group>"; };
+		20A1B45F18622E2F007247F0 /* ClackTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClackTextView.m; sourceTree = "<group>"; };
+		20A1B46318623A96007247F0 /* DAKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAKeyboardControl.h; sourceTree = "<group>"; };
+		20A1B46418623A96007247F0 /* DAKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAKeyboardControl.m; sourceTree = "<group>"; };
 		20D02CF8185FC0BB00793CDC /* clack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D02CFB185FC0BB00793CDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		20D02CFD185FC0BB00793CDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +86,14 @@
 		20D02D2E185FC0BB00793CDC /* clackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clackTests-Info.plist"; sourceTree = "<group>"; };
 		20D02D30185FC0BB00793CDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20D02D32185FC0BB00793CDC /* clackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clackTests.m; sourceTree = "<group>"; };
+		20D02D4518604B6200793CDC /* icon-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-camera@2x.png"; sourceTree = "<group>"; };
+		20D02D471860500B00793CDC /* FadeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeSegue.h; sourceTree = "<group>"; };
+		20D02D481860500B00793CDC /* FadeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeSegue.m; sourceTree = "<group>"; };
+		20D02D4A186052A600793CDC /* SyntaxHighlightTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntaxHighlightTextStorage.h; sourceTree = "<group>"; };
+		20D02D4B186052A600793CDC /* SyntaxHighlightTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntaxHighlightTextStorage.m; sourceTree = "<group>"; };
+		20D02D4D1860F96900793CDC /* test-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test-background@2x.png"; sourceTree = "<group>"; };
+		20D02D4F1860F9A900793CDC /* blank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank@2x.png"; sourceTree = "<group>"; };
+		20D02D5318610C6C00793CDC /* btn-camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-camera@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +122,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20A1B46118622ECC007247F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20D02D0F185FC0BB00793CDC /* Main_iPhone.storyboard */,
+				20D02D12185FC0BB00793CDC /* Main_iPad.storyboard */,
+				20D02D471860500B00793CDC /* FadeSegue.h */,
+				20D02D481860500B00793CDC /* FadeSegue.m */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		20A1B46218622EE3007247F0 /* Textview */ = {
+			isa = PBXGroup;
+			children = (
+				20A1B45E18622E2F007247F0 /* ClackTextView.h */,
+				20A1B45F18622E2F007247F0 /* ClackTextView.m */,
+				20D02D4A186052A600793CDC /* SyntaxHighlightTextStorage.h */,
+				20D02D4B186052A600793CDC /* SyntaxHighlightTextStorage.m */,
+				20A1B45318612AD6007247F0 /* ImageAttachment.h */,
+				20A1B45418612AD6007247F0 /* ImageAttachment.m */,
+				20A1B46318623A96007247F0 /* DAKeyboardControl.h */,
+				20A1B46418623A96007247F0 /* DAKeyboardControl.m */,
+			);
+			name = Textview;
+			sourceTree = "<group>";
+		};
 		20D02CEF185FC0BB00793CDC = {
 			isa = PBXGroup;
 			children = (
@@ -125,14 +182,15 @@
 		20D02D03185FC0BB00793CDC /* clack */ = {
 			isa = PBXGroup;
 			children = (
+				20D02D3C1860209D00793CDC /* images */,
+				20A1B46118622ECC007247F0 /* Storyboards */,
 				20D02D0C185FC0BB00793CDC /* AppDelegate.h */,
 				20D02D0D185FC0BB00793CDC /* AppDelegate.m */,
-				20D02D0F185FC0BB00793CDC /* Main_iPhone.storyboard */,
-				20D02D12185FC0BB00793CDC /* Main_iPad.storyboard */,
 				20D02D18185FC0BB00793CDC /* MasterViewController.h */,
 				20D02D19185FC0BB00793CDC /* MasterViewController.m */,
 				20D02D1B185FC0BB00793CDC /* DetailViewController.h */,
 				20D02D1C185FC0BB00793CDC /* DetailViewController.m */,
+				20A1B46218622EE3007247F0 /* Textview */,
 				20D02D1E185FC0BB00793CDC /* Images.xcassets */,
 				20D02D15185FC0BB00793CDC /* clack.xcdatamodeld */,
 				20D02D04185FC0BB00793CDC /* Supporting Files */,
@@ -167,6 +225,21 @@
 				20D02D2F185FC0BB00793CDC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20D02D3C1860209D00793CDC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				20A1B45C18614756007247F0 /* insert-test-wide.png */,
+				20A1B45A186140AE007247F0 /* insert-test.png */,
+				20A1B45818613203007247F0 /* overlay-bg@2x.png */,
+				20A1B4561861317F007247F0 /* blue-bg@2x.png */,
+				20D02D5318610C6C00793CDC /* btn-camera@2x.png */,
+				20D02D4F1860F9A900793CDC /* blank@2x.png */,
+				20D02D4D1860F96900793CDC /* test-background@2x.png */,
+				20D02D4518604B6200793CDC /* icon-camera@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +289,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Evan Brooks";
 				TargetAttributes = {
+					20D02CF7185FC0BB00793CDC = {
+						DevelopmentTeam = DJXSN639VG;
+					};
 					20D02D23185FC0BB00793CDC = {
 						TestTargetID = 20D02CF7185FC0BB00793CDC;
 					};
@@ -245,10 +321,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D02D5418610C6C00793CDC /* btn-camera@2x.png in Resources */,
+				20D02D4E1860F96900793CDC /* test-background@2x.png in Resources */,
+				20A1B45918613203007247F0 /* overlay-bg@2x.png in Resources */,
+				20D02D501860F9A900793CDC /* blank@2x.png in Resources */,
 				20D02D14185FC0BB00793CDC /* Main_iPad.storyboard in Resources */,
+				20D02D4618604B6200793CDC /* icon-camera@2x.png in Resources */,
 				20D02D1F185FC0BB00793CDC /* Images.xcassets in Resources */,
+				20A1B45D18614756007247F0 /* insert-test-wide.png in Resources */,
 				20D02D11185FC0BB00793CDC /* Main_iPhone.storyboard in Resources */,
+				20A1B4571861317F007247F0 /* blue-bg@2x.png in Resources */,
 				20D02D08185FC0BB00793CDC /* InfoPlist.strings in Resources */,
+				20A1B45B186140AE007247F0 /* insert-test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +351,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A1B45518612AD6007247F0 /* ImageAttachment.m in Sources */,
+				20A1B46018622E2F007247F0 /* ClackTextView.m in Sources */,
 				20D02D1D185FC0BB00793CDC /* DetailViewController.m in Sources */,
+				20D02D491860500B00793CDC /* FadeSegue.m in Sources */,
 				20D02D1A185FC0BB00793CDC /* MasterViewController.m in Sources */,
+				20D02D4C186052A600793CDC /* SyntaxHighlightTextStorage.m in Sources */,
 				20D02D0E185FC0BB00793CDC /* AppDelegate.m in Sources */,
+				20A1B46518623A96007247F0 /* DAKeyboardControl.m in Sources */,
 				20D02D17185FC0BB00793CDC /* clack.xcdatamodeld in Sources */,
 				20D02D0A185FC0BB00793CDC /* main.m in Sources */,
 			);
@@ -408,10 +497,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "clack/clack-Prefix.pch";
 				INFOPLIST_FILE = "clack/clack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,10 +513,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "clack/clack-Prefix.pch";
 				INFOPLIST_FILE = "clack/clack-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -490,6 +585,7 @@
 				20D02D38185FC0BC00793CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20D02D39185FC0BC00793CDC /* Build configuration list for PBXNativeTarget "clackTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +594,7 @@
 				20D02D3B185FC0BC00793CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

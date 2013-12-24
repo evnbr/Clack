@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UISplitViewControllerDelegate, UIImagePickerControllerDelegate> {
+    UIImagePickerController *imgPicker;
+}
 
 @property (strong, nonatomic) id detailItem;
-
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) UITextView *textView;
+
+@property (nonatomic, retain) UIImagePickerController *imgPicker;
+@property (nonatomic, retain) UIImagePickerController *camPicker;
+
+@property (nonatomic) NSInteger topOffset;
+
 @end
+
+
